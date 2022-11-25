@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(12,121,140,0.14);
+}
+
+.control-tab {
+    position: absolute;
+    padding: 20px;
+    z-index: 100;
+}
+
+button {
+    background: rgba(44,57,140,0.87);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s;
+}
+button:hover {
+    color: rgba(29,40,140,0.31);
+    background: rgba(140,56,135,0.31);
+}
+
+.main-animation {
+    width: auto;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img{
+    display: none;
+}
